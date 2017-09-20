@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo  build/Release-iphonesimulator/libopenclik.a  build/Release-iphoneos/libopenclik.a  -create -output libopenclik.a

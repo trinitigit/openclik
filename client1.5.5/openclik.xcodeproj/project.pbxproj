@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429933A614F4806E00343A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429933A514F4806E00343A06 /* Foundation.framework */; };
+		429933CC14F4829500343A06 /* OpenClik.h in Headers */ = {isa = PBXBuildFile; fileRef = 429933C414F4829500343A06 /* OpenClik.h */; };
+		429933CD14F4829500343A06 /* OpenClik.m in Sources */ = {isa = PBXBuildFile; fileRef = 429933C514F4829500343A06 /* OpenClik.m */; };
+		429933CE14F4829500343A06 /* OpenClikViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 429933C614F4829500343A06 /* OpenClikViewController.h */; };
+		429933CF14F4829500343A06 /* OpenClikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429933C714F4829500343A06 /* OpenClikViewController.m */; };
+		429933D014F4829500343A06 /* OpenClikWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 429933C814F4829500343A06 /* OpenClikWebView.h */; };
+		429933D114F4829500343A06 /* OpenClikWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429933C914F4829500343A06 /* OpenClikWebView.m */; };
+		42F5977F17E818C40020579D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F5977E17E818C40020579D /* SystemConfiguration.framework */; };
+		42F597BB17E81A3D0020579D /* OCReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F597B917E81A3D0020579D /* OCReachability.h */; };
+		42F597BC17E81A3D0020579D /* OCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F597BA17E81A3D0020579D /* OCReachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4281CCA9186297BE00515DB0 /* GADAdMobExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		4281CCAA186297BE00515DB0 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		4281CCAB186297BE00515DB0 /* GADAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		4281CCAC186297BE00515DB0 /* GADBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		4281CCAD186297BE00515DB0 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		4281CCAE186297BE00515DB0 /* GADInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		4281CCAF186297BE00515DB0 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		4281CCB0186297BE00515DB0 /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		4281CCB1186297BE00515DB0 /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		4281CCB2186297BE00515DB0 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		429933A214F4806E00343A06 /* libopenclik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopenclik.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		429933A514F4806E00343A06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		429933C414F4829500343A06 /* OpenClik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenClik.h; sourceTree = "<group>"; };
+		429933C514F4829500343A06 /* OpenClik.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenClik.m; sourceTree = "<group>"; };
+		429933C614F4829500343A06 /* OpenClikViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenClikViewController.h; sourceTree = "<group>"; };
+		429933C714F4829500343A06 /* OpenClikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenClikViewController.m; sourceTree = "<group>"; };
+		429933C814F4829500343A06 /* OpenClikWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenClikWebView.h; sourceTree = "<group>"; };
+		429933C914F4829500343A06 /* OpenClikWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenClikWebView.m; sourceTree = "<group>"; };
+		42F5977E17E818C40020579D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42F597B917E81A3D0020579D /* OCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCReachability.h; sourceTree = "<group>"; };
+		42F597BA17E81A3D0020579D /* OCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCReachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4299339F14F4806E00343A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F5977F17E818C40020579D /* SystemConfiguration.framework in Frameworks */,
+				429933A614F4806E00343A06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4281CCA8186297BE00515DB0 /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				4281CCA9186297BE00515DB0 /* GADAdMobExtras.h */,
+				4281CCAA186297BE00515DB0 /* GADAdNetworkExtras.h */,
+				4281CCAB186297BE00515DB0 /* GADAdSize.h */,
+				4281CCAC186297BE00515DB0 /* GADBannerView.h */,
+				4281CCAD186297BE00515DB0 /* GADBannerViewDelegate.h */,
+				4281CCAE186297BE00515DB0 /* GADInterstitial.h */,
+				4281CCAF186297BE00515DB0 /* GADInterstitialDelegate.h */,
+				4281CCB0186297BE00515DB0 /* GADRequest.h */,
+				4281CCB1186297BE00515DB0 /* GADRequestError.h */,
+				4281CCB2186297BE00515DB0 /* README.txt */,
+			);
+			path = admob;
+			sourceTree = "<group>";
+		};
+		4299339714F4806E00343A06 = {
+			isa = PBXGroup;
+			children = (
+				4281CCA8186297BE00515DB0 /* admob */,
+				42F5977E17E818C40020579D /* SystemConfiguration.framework */,
+				429933C314F4829500343A06 /* Classes */,
+				429933A414F4806E00343A06 /* Frameworks */,
+				429933A314F4806E00343A06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429933A314F4806E00343A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429933A214F4806E00343A06 /* libopenclik.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429933A414F4806E00343A06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429933A514F4806E00343A06 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		429933C314F4829500343A06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				429933C414F4829500343A06 /* OpenClik.h */,
+				429933C514F4829500343A06 /* OpenClik.m */,
+				429933C614F4829500343A06 /* OpenClikViewController.h */,
+				429933C714F4829500343A06 /* OpenClikViewController.m */,
+				429933C814F4829500343A06 /* OpenClikWebView.h */,
+				429933C914F4829500343A06 /* OpenClikWebView.m */,
+				42F597B917E81A3D0020579D /* OCReachability.h */,
+				42F597BA17E81A3D0020579D /* OCReachability.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		429933A014F4806E00343A06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429933CC14F4829500343A06 /* OpenClik.h in Headers */,
+				429933CE14F4829500343A06 /* OpenClikViewController.h in Headers */,
+				429933D014F4829500343A06 /* OpenClikWebView.h in Headers */,
+				42F597BB17E81A3D0020579D /* OCReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		429933A114F4806E00343A06 /* openclik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429933AF14F4806E00343A06 /* Build configuration list for PBXNativeTarget "openclik" */;
+			buildPhases = (
+				4299339E14F4806E00343A06 /* Sources */,
+				4299339F14F4806E00343A06 /* Frameworks */,
+				429933A014F4806E00343A06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openclik;
+			productName = openclik;
+			productReference = 429933A214F4806E00343A06 /* libopenclik.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4299339914F4806E00343A06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4299339C14F4806E00343A06 /* Build configuration list for PBXProject "openclik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4299339714F4806E00343A06;
+			productRefGroup = 429933A314F4806E00343A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429933A114F4806E00343A06 /* openclik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4299339E14F4806E00343A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429933CD14F4829500343A06 /* OpenClik.m in Sources */,
+				429933CF14F4829500343A06 /* OpenClikViewController.m in Sources */,
+				429933D114F4829500343A06 /* OpenClikWebView.m in Sources */,
+				42F597BC17E81A3D0020579D /* OCReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		429933AD14F4806E00343A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		429933AE14F4806E00343A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429933B014F4806E00343A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/openclik.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/changzhidong/Downloads/Chartboost,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openclik-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\\\\\"$(SRCROOT)/GoogleAdMobAdsSDK\\\\\\\"",
+					"/Users/changzhidong/Documents/opencliksvn/trunk/client/Chartboost\\ ",
+					"/Users/changzhidong/Documents/opencliksvn/trunk/client-triniti/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s  arm64";
+			};
+			name = Debug;
+		};
+		429933B114F4806E00343A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/openclik.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/changzhidong/Downloads/Chartboost,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+					"$(PROJECT_DIR)/Chartboost",
+					2,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openclik-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\\\\\"$(SRCROOT)/GoogleAdMobAdsSDK\\\\\\\"",
+					"/Users/changzhidong/Documents/opencliksvn/trunk/client/Chartboost\\ ",
+					"/Users/changzhidong/Documents/opencliksvn/trunk/client-triniti/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s  arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4299339C14F4806E00343A06 /* Build configuration list for PBXProject "openclik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429933AD14F4806E00343A06 /* Debug */,
+				429933AE14F4806E00343A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429933AF14F4806E00343A06 /* Build configuration list for PBXNativeTarget "openclik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429933B014F4806E00343A06 /* Debug */,
+				429933B114F4806E00343A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4299339914F4806E00343A06 /* Project object */;
+}

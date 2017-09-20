@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6dbb0849-d8ae-4e36-91cd-62d9a912d40d",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6dbb0849-d8ae-4e36-91cd-62d9a912d40d" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6dbb0849-d8ae-4e36-91cd-62d9a912d40d" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3C58AFE-7833-4FCC-8C31-00791A5BB417",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6dbb0849-d8ae-4e36-91cd-62d9a912d40d" : "opencliksvn"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tabeee114",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/client\/opencliktest\/tabeee114.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.openclik.com\/svn\/openclik",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6dbb0849-d8ae-4e36-91cd-62d9a912d40d"
+    }
+  ]
+}
