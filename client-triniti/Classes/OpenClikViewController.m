@@ -9,8 +9,6 @@
 #import "OpenClik.h"
 #define TRINITI
 #ifdef TRINITI
-//#import "Chartboost/Chartboost.h"
-//#import "Chartboost.h"
 #import "OpenClikViewController.h"
 #import "GoogleMobileAds/GoogleMobileAds.h";
 BOOL charboostshow;
@@ -336,7 +334,21 @@ extern UIViewController* AdMobGetRootViewController();
 }
 -(BOOL)IsAdReady
 {
-    return openclikClass.adIsReady;
+    if ([adName isEqualToString:@"admob"])
+    {
+        return [interstitial_ isReady];
+        
+        
+    }else if([adName isEqualToString:@"chartboost"])
+    {
+        return [Chartboost hasInterstitial:CBLocationHomeScreen];
+    }
+    else if([adName isEqualToString:@"openclik"])
+    {
+        return openclikClass.adIsReady ;
+    }
+    return false;
+
 }
 -(NSString*)getAward
 {
