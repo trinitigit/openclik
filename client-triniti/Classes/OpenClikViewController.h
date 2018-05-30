@@ -7,8 +7,8 @@
 //
 
 #import <Chartboost/Chartboost.h>
-
-#define OPENCLIKSDKVER @"1.5.6"
+// update for website down from 1.5.6 to 1.5.7
+#define OPENCLIKSDKVER @"1.5.7"
 @interface OpenClikViewController : UIViewController<ChartboostDelegate>  {
     BOOL _isVisible;
 @private   
