@@ -15,7 +15,7 @@
 		429933CF14F4829500343A06 /* OpenClikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429933C714F4829500343A06 /* OpenClikViewController.m */; };
 		429933D014F4829500343A06 /* OpenClikWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 429933C814F4829500343A06 /* OpenClikWebView.h */; };
 		429933D114F4829500343A06 /* OpenClikWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429933C914F4829500343A06 /* OpenClikWebView.m */; };
-		429B922D1BD736BD00C3C290 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429B922C1BD736BD00C3C290 /* Chartboost.framework */; };
+		429BECE220BEA795001B4FED /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429BECE120BEA795001B4FED /* Chartboost.framework */; };
 		42F5977F17E818C40020579D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F5977E17E818C40020579D /* SystemConfiguration.framework */; };
 		42F597BB17E81A3D0020579D /* OCReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F597B917E81A3D0020579D /* OCReachability.h */; };
 		42F597BC17E81A3D0020579D /* OCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F597BA17E81A3D0020579D /* OCReachability.m */; };
@@ -31,7 +31,7 @@
 		429933C714F4829500343A06 /* OpenClikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenClikViewController.m; sourceTree = "<group>"; };
 		429933C814F4829500343A06 /* OpenClikWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenClikWebView.h; sourceTree = "<group>"; };
 		429933C914F4829500343A06 /* OpenClikWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenClikWebView.m; sourceTree = "<group>"; };
-		429B922C1BD736BD00C3C290 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = "Chartboost 2/Chartboost.framework"; sourceTree = "<group>"; };
+		429BECE120BEA795001B4FED /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
 		42F5977E17E818C40020579D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		42F597B917E81A3D0020579D /* OCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCReachability.h; sourceTree = "<group>"; };
 		42F597BA17E81A3D0020579D /* OCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCReachability.m; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429B922D1BD736BD00C3C290 /* Chartboost.framework in Frameworks */,
 				42F5977F17E818C40020579D /* SystemConfiguration.framework in Frameworks */,
+				429BECE220BEA795001B4FED /* Chartboost.framework in Frameworks */,
 				428ED5231F72609D0042BB78 /* GoogleMobileAds.framework in Frameworks */,
 				429933A614F4806E00343A06 /* Foundation.framework in Frameworks */,
 			);
@@ -55,8 +55,8 @@
 		4299339714F4806E00343A06 = {
 			isa = PBXGroup;
 			children = (
+				429BECE120BEA795001B4FED /* Chartboost.framework */,
 				428ED5221F72609D0042BB78 /* GoogleMobileAds.framework */,
-				429B922C1BD736BD00C3C290 /* Chartboost.framework */,
 				42F5977E17E818C40020579D /* SystemConfiguration.framework */,
 				429933C314F4829500343A06 /* Classes */,
 				429933A414F4806E00343A06 /* Frameworks */,
@@ -226,6 +226,7 @@
 					"$(PROJECT_DIR)/Chartboost",
 					2,
 					"$(USER_LIBRARY_DIR)/Application\\ Support/RTXC/accounts/changzhidong/sessionPhoto/GoogleMobileAdsSdkiOS-7.23.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openclik-Prefix.pch";
@@ -261,6 +262,7 @@
 					"$(PROJECT_DIR)/Chartboost",
 					2,
 					"$(USER_LIBRARY_DIR)/Application\\ Support/RTXC/accounts/changzhidong/sessionPhoto/GoogleMobileAdsSdkiOS-7.23.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openclik-Prefix.pch";
