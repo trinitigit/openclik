@@ -334,10 +334,13 @@ extern UIViewController* AdMobGetRootViewController();
 }
 -(BOOL)IsAdReady
 {
+    if(adName == nil)
+    {
+        return openclikClass.adIsReady ;
+    }
     if ([adName isEqualToString:@"admob"])
     {
         return [interstitial_ isReady];
-        
         
     }else if([adName isEqualToString:@"chartboost"])
     {
